@@ -1,12 +1,13 @@
 import time
+import math
 
-# def _first_ramdom_num():
+#def _first_ramdom_num():
 time_ = time.time()
 x = int(time_)
 x1 = x - (x //1000) * 1000
 x2 = x - (x //100) * 100
 x3 = x - (x //10) * 10
-num = x1+x2+x3 
+num = (x1+x2+x3) // 2.7
 
 print (x1, x2, x3, num)
 
